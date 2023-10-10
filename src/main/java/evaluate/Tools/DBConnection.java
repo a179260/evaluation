@@ -12,7 +12,7 @@ public class DBConnection {
                 String driver = "com.mysql.cj.jdbc.Driver";
                 Class.forName(driver);
                 String url = "jdbc:mysql://localhost:3306/123?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8";
-                conn = DriverManager.getConnection(url, "root", "zxcvbnm123.");
+                conn = DriverManager.getConnection(url, "root", "zxcvbnm");
             }catch (Exception e){
                 e.printStackTrace();
             }
